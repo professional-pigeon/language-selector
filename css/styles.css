@@ -1,3 +1,4 @@
-#hidden {
-  background-image: url("img/confused.jpeg");
+#imageGen {
+  background-image: url("../img/confused.jpeg");
+  text-align: center;
 }
