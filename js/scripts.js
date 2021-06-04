@@ -10,6 +10,10 @@ function randomInt(min, max) {
 $(document).ready(function(){
   $("#formOne").submit(function(event){
     event.preventDefault();
+
+
+
+
     let uName = $("#userName").val();
     let interest = $("#interest").val();
     let langType = $("#langType").val();
