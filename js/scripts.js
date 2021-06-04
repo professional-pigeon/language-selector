@@ -2,17 +2,21 @@
 
 
 $(document).ready(function(){
-  $("from#formOne").submit(function(event){
-    let userName = $("#username").val();
+  $("#formOne").submit(function(event){
+    event.preventDefault();
+    let userName = $("#userName").val();
     let interest = $("#interest").val();
-    let langType = $("#langtype").val();
-    let 
+    let langType = $("#langType").val();
+    let animal = $("#animal").val();
+    let celeb = $("#celebrity").val();
+    let favColor = $("#color").val()
+    console.log(userName, interest, langType, animal, celeb, favColor)
 
   
-  })
+  });
 
 
 
 
 
-})
+});

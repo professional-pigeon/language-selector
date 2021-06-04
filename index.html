@@ -10,9 +10,10 @@
 <body>
   <div class="container">
     <div class="jumbotron"  id="imageGen">
-      <div>
+      <div id="initText">
         <img src="img/confused.jpeg" alt="confused person" id="float">
-        <h1>Which coding language should I choose!</h1>
+        <h1>Which coding language should I choose?</h1>
+        <p>Fill out this short survey and find out!</p>
       </div>
     </div>
     <div class="row">
@@ -26,8 +27,7 @@
             <label class="question-title" for="band">Select something you may be interested</label>
             <select class="form-control" id="interest">
               <option value="design">Design</option>
-              <option value="data">Data</option>
-              <option value="security">Security</option>
+              <option value="data">Data</option>>
               <option value="security">Video Games</option>
               <option value="other">I don't know or other</option>
             </select> 
@@ -40,10 +40,17 @@
             </select> 
           </div>
           <div class="form-group">
-            <label class="question-title" for="band">Cat person or Bird person</label>
-            <select class="form-control" id="band">
-              <option value="0">Cat</option>
-              <option value="5">Bird</option>
+            <label class="question-title" for="animal">Cat person or Bird person</label>
+            <select class="form-control" id="animal">
+              <option value="cat">Cat</option>
+              <option value="bird">Bird</option>
+            </select> 
+          </div>
+          <div class="form-group">
+            <label class="question-title" for="celebrity">What celebrity do you identify the most with?</label>
+            <select class="form-control" id="celebrity">
+              <option value="issa">Issa Rae</option>
+              <option value="costas">Bob Costas</option>
             </select> 
           </div>
           <div class="form-group">
@@ -58,6 +65,7 @@
         <img src="placeholder" id="hiddenImg">
         <h4>Congratulations <span id="userName"></span>!</h4>
         <p>I think you'll match well with <span id="codeLanguage"></span>! Good luck on your journey. Now would be a good time to let you know that I've only been doing this for two weeks. Therefore I've included a randomizer button below. It'll kick out a different language and link for you to go and it'll have about the same authority as me. Enjoy!</p>
+        <button class="btn btn-warning" type="submit">Go Crazy</button>
       </div>
       </div>
     </div>
