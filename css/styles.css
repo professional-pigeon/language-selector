@@ -4,13 +4,7 @@
   background-color: rgba(33, 224, 199);
 }
 
-h1 {
-  text-align: center;
-}
-body {
-  background-color: ;
-}
-#float {
+#titleImg {
   margin-left: auto;
   margin-right: auto;
   width: 40%;
@@ -23,6 +17,8 @@ body {
 
 #hidden {
   display: none;
+  background-color: rgba(33, 224, 199);
+  border: solid 4px rgb(241, 245, 23);
 }
 
 #initText {
