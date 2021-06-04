@@ -7,6 +7,7 @@ function randomInt(min, max) {
   return Math.floor(Math.random() * (max1 - min1 + 1) + min1);
 }
 
+
 $(document).ready(function(){
   $("#formOne").submit(function(event){
     event.preventDefault();
@@ -31,7 +32,7 @@ $(document).ready(function(){
           $("#hidden").fadeIn(2000);
           $("#show").slideUp(1500)
           $("#codeLanguage").text("C++");
-          $("#hiddenImg").attr("src", "img/cplusplus.jpeg");
+          $("#hiddenImg").attr("src", "img/cplusplus.png");
         }
       } else if (interest === "design" || interest === "other") {
         if (animal === "bird") {
@@ -106,5 +107,14 @@ $(document).ready(function(){
       $("#codeLanguage").text("Java");
       $("#hiddenImg").attr("src", "img/java.jpeg");
     }
+  });
+
+  $("button#reset").click(function(event){
+    event.preventDefault();
+    $("#show").toggle(2000);
+    $("#hidden").toggle(1500)
+    $("#formOne").find("input").val("");
+    let favColor = "rgb(218, 165, 32)"
+    colorFunction(favColor);
   });
 });
