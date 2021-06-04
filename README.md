@@ -16,21 +16,21 @@
 
 * HTML
 * CSS
-* Markdown
-* Javascript
-* jQuery
+* [Markdown] (https://www.markdownguide.org/)
+* [Javascript] (https://www.javascript.com/)
+* [jQuery] (https://jquery.com/)
 * [VS studio](https://code.visualstudio.com/)
 * [Bootstrap](https://getbootstrap.com/) 
 
 ## Description
 
-This is a code language quiz. You fill out some information, it runs a bit of logic, and you get a gentle suggestion for a code language.
+This is a code language quiz. You fill out some information, it runs a bit of logic, and you get a gentle suggestion for a code language. also has a randomizer with about equivalent authority to myself to suggest a language. Here is a [link](https://professional-pigeon.github.io/language-selector/) to the github pages location for this project if you'd like to try it out.
 
 ## Setup/Installation Requirements
 
-* Clone or fork repository from github into directory on your computer: [Github link](https://github.com/professional-pigeon/language-selector)
-* Use the terminal on your computer to clone the directory.
-* Open with a text editor, I used [VS studio.](https://code.visualstudio.com/)
+* [Clone] (https://github.com/git-guides/git-clone) or [fork](https://docs.github.com/en/github/getting-started-with-github/quickstart/fork-a-repo) this repository from github into directory on your computer: [Github link for this project](https://github.com/professional-pigeon/language-selector)
+* Open cloned/forked directory with [VS studio.](https://code.visualstudio.com/). 
+* Directions to install Bootstrap and the Jquery library can be found in the links in the 'Technologies Used' section of this README
 
 ## Known Bugs
 
