@@ -1,4 +1,6 @@
-
+function colorFunction(favColor) {
+  document.body.style.backgroundColor = favColor;
+}
 
 
 $(document).ready(function(){
@@ -10,7 +12,8 @@ $(document).ready(function(){
     let animal = $("#animal").val();
     let celeb = $("#celebrity").val();
     let favColor = $("#color").val()
-    console.log(userName, interest, langType, animal, celeb, favColor)
+    colorFunction(favColor)
+    console.log(typeof(userName), typeof(interest), typeof(langType), typeof(animal), typeof(celeb), typeof(favColor))
 
   
   });
