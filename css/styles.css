@@ -1,4 +1,25 @@
-#imageGen {
-  background-image: url("../img/confused.jpeg");
+#sidebar {
+  border: solid 4px rgb(241, 245, 23);
+  padding: 1em;
+  background-color: rgba(33, 224, 199);
+}
+
+h1 {
   text-align: center;
+}
+
+#float {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  display: block;
+
+}
+
+.question-title {
+  text-decoration: underline;
+}
+
+#hidden {
+  display: none;
 }
