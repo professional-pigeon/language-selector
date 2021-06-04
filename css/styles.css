@@ -1,9 +1,13 @@
 #survey {
-  border: solid 4px rgb(241, 245, 23);
+  border: solid 4px rgb(201, 94, 174);
   padding: 1em;
   background-color: rgba(33, 224, 199);
 }
 
+.jumbotron {
+  border: solid 4px rgb(201, 94, 174);
+  background-color: rgb(206, 204, 204);
+}
 #titleImg {
   margin-left: auto;
   margin-right: auto;
@@ -38,4 +42,12 @@
 
 .container {
   margin-bottom: 2em;
+}
+
+body {
+  background-color: goldenrod;
+}
+
+#reset {
+  float: right;
 }

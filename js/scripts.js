@@ -24,24 +24,24 @@ $(document).ready(function(){
       if (interest === "data" || interest === "vidG") {
         if (celeb === "issa") {
           $("#hidden").fadeIn(2000);
-          $("#show").slideUp(2000)
+          $("#show").slideUp(1500)
           $(".codeLanguage").text("Elixir");
           $("#hiddenImg").attr("src", "img/elixir.jpeg");
         } else if (celeb === "costas") {
           $("#hidden").fadeIn(2000);
-          $("#show").slideUp(2000)
+          $("#show").slideUp(1500)
           $("#codeLanguage").text("C++");
           $("#hiddenImg").attr("src", "img/cplusplus.jpeg");
         }
       } else if (interest === "design" || interest === "other") {
         if (animal === "bird") {
           $("#hidden").fadeIn(2000);
-          $("#show").slideUp(2000)
+          $("#show").slideUp(1500)
           $("#codeLanguage").text("Python");
           $("#hiddenImg").attr("src", "img/python.jpeg");
         } else if (animal === "cat") {
           $("#hidden").fadeIn(2000);
-          $("#show").slideUp(2000)
+          $("#show").slideUp(1500)
           $(".codeLanguage").text("Ruby");
           $("#hiddenImg").attr("src", "img/ruby.png");
         }
@@ -50,24 +50,24 @@ $(document).ready(function(){
       if (interest === "data" || interest === "vidG") {
         if (celeb === "issa") {
           $("#hidden").fadeIn(2000);
-          $("#show").slideUp(2000)
+          $("#show").slideUp(1500)
           $("#codeLanguage").text("COBOL");
           $("#hiddenImg").attr("src", "img/cobol.jpeg");
         } else if (celeb === "costas") {
           $("#hidden").fadeIn(2000);
-          $("#show").slideUp(2000)
+          $("#show").slideUp(1500)
           $("#codeLanguage").text("Rust");
           $("#hiddenImg").attr("src", "img/rust.png");
         }
       } else if (interest === "design" || interest === "other") {
         if (animal === "bird") {
           $("#hidden").fadeIn(2000);
-          $("#show").slideUp(2000)
+          $("#show").slideUp(1500)
           $("#codeLanguage").text("C# (C sharp)");
           $("#hiddenImg").attr("src", "img/csharp.jpeg");
         } else if (animal === "cat") {
           $("#hidden").fadeIn(2000);
-          $("#show").slideUp(2000)
+          $("#show").slideUp(1500)
           $("#codeLanguage").text("Java");
           $("#hiddenImg").attr("src", "img/java.jpeg");
         }
