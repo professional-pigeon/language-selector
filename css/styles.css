@@ -21,6 +21,13 @@
   border: solid 4px rgb(241, 245, 23);
 }
 
+#hiddenImg {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: auto;
+}
+
 #initText {
   text-align: center;
 }

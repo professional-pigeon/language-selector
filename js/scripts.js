@@ -1,12 +1,16 @@
 function colorFunction(favColor) {
   document.body.style.backgroundColor = favColor;
 }
-
+function randomInt(min, max) {
+  let min1 = Math.ceil(min);
+  let max1 = Math.floor(max);
+  return Math.floor(Math.random() * (max1 - min1 + 1) + min1);
+}
 
 $(document).ready(function(){
   $("#formOne").submit(function(event){
     event.preventDefault();
-    let userName = $("#userName").val();
+    let uName = $("#userName").val();
     let interest = $("#interest").val();
     let langType = $("#langType").val();
     let animal = $("#animal").val();
@@ -19,36 +23,50 @@ $(document).ready(function(){
       if (interest === "data" || interest === "vidG") {
         if (celeb === "issa") {
           $("#hidden").show();
+          $("#codeLanguage").text("Elixir")
+          $("#hiddenImg").attr("src", "img/elixir.jpeg")
         } else if (celeb === "costas") {
           $("#hidden").show();
+          $("#codeLanguage").text("C++")
+          $("#hiddenImg").attr("src", "img/cplusplus.jpeg")
         }
       } else if (interest === "design" || interest === "other") {
         if (animal === "bird") {
           $("#hidden").show();
+          $("#codeLanguage").text("Python")
+          $("#hiddenImg").attr("src", "img/python.jpeg")
         } else if (animal === "cat") {
           $("#hidden").show();
+          $("#codeLanguage").text("Ruby")
+          $("#hiddenImg").attr("src", "img/ruby.png")
         }
       }  
     } else if (langType === "imperative") {
       if (interest === "data" || interest === "vidG") {
         if (celeb === "issa") {
           $("#hidden").show();
+          $("#codeLanguage").text("COBOL")
+          $("#hiddenImg").attr("src", "img/cobol.jpeg")
         } else if (celeb === "costas") {
           $("#hidden").show();
+          $("#codeLanguage").text("Rust")
+          $("#hiddenImg").attr("src", "img/rust.png")
         }
       } else if (interest === "design" || interest === "other") {
         if (animal === "bird") {
           $("#hidden").show();
+          $("#codeLanguage").text("C# (C sharp)")
+          $("#hiddenImg").attr("src", "img/csharp.jpeg")
         } else if (animal === "cat") {
           $("#hidden").show();
+          $("#codeLanguage").text("Java")
+          $("#hiddenImg").attr("src", "img/java.jpeg")
         }
       }
     }
-  
+    $("#userGreet").text(uName)
   });
 });
-
-$("#hidden").show();
 /* okay what possible options exist
 
 1. design, data, vidG, other
