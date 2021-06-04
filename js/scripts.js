@@ -11,10 +11,7 @@ $(document).ready(function(){
   $("#formOne").submit(function(event){
     event.preventDefault();
 
-
-
-
-    let uName = $("#userName").val();
+    let uName = $("#validationDefault01").val();
     let interest = $("#interest").val();
     let langType = $("#langType").val();
     let animal = $("#animal").val();
@@ -40,7 +37,7 @@ $(document).ready(function(){
           $("#codeLanguage").text("Python");
           $("#hiddenImg").attr("src", "img/python.jpeg");
         } else if (animal === "cat") {
-          $("#hidden").show();
+          $("#hidden").slideIn();
           $("#codeLanguage").text("Ruby");
           $("#hiddenImg").attr("src", "img/ruby.png");
         }
@@ -81,7 +78,7 @@ $(document).ready(function(){
       $("#hiddenImg").attr("src", "img/elixir.jpeg");
     } else if (ranNum === 2) {
       $("#codeLanguage").text("C++");
-      $("#hiddenImg").attr("src", "img/cplusplus.jpeg");
+      $("#hiddenImg").attr("src", "img/cplusplus.png");
     } else if (ranNum === 3) {
       $("#codeLanguage").text("Python");
       $("#hiddenImg").attr("src", "img/python.jpeg");
