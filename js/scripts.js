@@ -15,76 +15,87 @@ $(document).ready(function(){
     let langType = $("#langType").val();
     let animal = $("#animal").val();
     let celeb = $("#celebrity").val();
-    let favColor = $("#color").val()
-    colorFunction(favColor)
-    console.log(userName, interest, langType, animal, celeb, favColor)
+    let favColor = $("#color").val();
+    colorFunction(favColor);
+    console.log(uName, interest, langType, animal, celeb, favColor)
 
     if (langType === "functional") {
       if (interest === "data" || interest === "vidG") {
         if (celeb === "issa") {
           $("#hidden").show();
-          $("#codeLanguage").text("Elixir")
-          $("#hiddenImg").attr("src", "img/elixir.jpeg")
+          $("#codeLanguage").text("Elixir");
+          $("#hiddenImg").attr("src", "img/elixir.jpeg");
         } else if (celeb === "costas") {
           $("#hidden").show();
-          $("#codeLanguage").text("C++")
-          $("#hiddenImg").attr("src", "img/cplusplus.jpeg")
+          $("#codeLanguage").text("C++");
+          $("#hiddenImg").attr("src", "img/cplusplus.jpeg");
         }
       } else if (interest === "design" || interest === "other") {
         if (animal === "bird") {
           $("#hidden").show();
-          $("#codeLanguage").text("Python")
-          $("#hiddenImg").attr("src", "img/python.jpeg")
+          $("#codeLanguage").text("Python");
+          $("#hiddenImg").attr("src", "img/python.jpeg");
         } else if (animal === "cat") {
           $("#hidden").show();
-          $("#codeLanguage").text("Ruby")
-          $("#hiddenImg").attr("src", "img/ruby.png")
+          $("#codeLanguage").text("Ruby");
+          $("#hiddenImg").attr("src", "img/ruby.png");
         }
       }  
     } else if (langType === "imperative") {
       if (interest === "data" || interest === "vidG") {
         if (celeb === "issa") {
           $("#hidden").show();
-          $("#codeLanguage").text("COBOL")
-          $("#hiddenImg").attr("src", "img/cobol.jpeg")
+          $("#codeLanguage").text("COBOL");
+          $("#hiddenImg").attr("src", "img/cobol.jpeg");
         } else if (celeb === "costas") {
           $("#hidden").show();
-          $("#codeLanguage").text("Rust")
-          $("#hiddenImg").attr("src", "img/rust.png")
+          $("#codeLanguage").text("Rust");
+          $("#hiddenImg").attr("src", "img/rust.png");
         }
       } else if (interest === "design" || interest === "other") {
         if (animal === "bird") {
           $("#hidden").show();
-          $("#codeLanguage").text("C# (C sharp)")
-          $("#hiddenImg").attr("src", "img/csharp.jpeg")
+          $("#codeLanguage").text("C# (C sharp)");
+          $("#hiddenImg").attr("src", "img/csharp.jpeg");
         } else if (animal === "cat") {
           $("#hidden").show();
-          $("#codeLanguage").text("Java")
-          $("#hiddenImg").attr("src", "img/java.jpeg")
+          $("#codeLanguage").text("Java");
+          $("#hiddenImg").attr("src", "img/java.jpeg");
         }
       }
     }
-    $("#userGreet").text(uName)
+    $("#userGreet").text(uName);
+  });
+
+  $("button#crazy").click(function(event){
+    event.preventDefault();
+    let ranNum = randomInt(1, 8);
+    console.log(ranNum);
+
+    if (ranNum === 1) {
+      $("#codeLanguage").text("Elixir");
+      $("#hiddenImg").attr("src", "img/elixir.jpeg");
+    } else if (ranNum === 2) {
+      $("#codeLanguage").text("C++");
+      $("#hiddenImg").attr("src", "img/cplusplus.jpeg");
+    } else if (ranNum === 3) {
+      $("#codeLanguage").text("Python");
+      $("#hiddenImg").attr("src", "img/python.jpeg");
+    } else if (ranNum === 4) {
+      $("#codeLanguage").text("Ruby");
+      $("#hiddenImg").attr("src", "img/ruby.png");
+    } else if (ranNum === 5) {
+      $("#codeLanguage").text("COBOL");
+      $("#hiddenImg").attr("src", "img/cobol.jpeg");
+    } else if (ranNum === 6) {
+      $("#codeLanguage").text("Rust");
+      $("#hiddenImg").attr("src", "img/rust.png");
+    } else if (ranNum === 7) {
+      $("#codeLanguage").text("C# (C sharp)");
+      $("#hiddenImg").attr("src", "img/csharp.jpeg");
+    } else if (ranNum === 8) {
+      $("#codeLanguage").text("Java");
+      $("#hiddenImg").attr("src", "img/java.jpeg");
+    }
   });
 });
-/* okay what possible options exist
-
-1. design, data, vidG, other
-2. function, imperative
-3. cat, bird
-4. issa, costas,
-
-
-Tree design
-
-Function - data, vidG - issa (then language1)
-Function - data, vidG - costas(then language2)
-
-Function - design, other - cat (then language3)
-Function - design, other - bird (then language4)
-
-imperative - data, vidG - issa (language5)
-imperative - data, vidG - costas (language6)
-
-imperative - design, other - bird (language7)
-imperative - design, other - cat (language8) */

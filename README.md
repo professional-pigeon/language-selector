@@ -9,7 +9,6 @@
 - [Description](#description)
 - [Setup/Installation Requirements](#setup/installation-requirements)
 - [Known Bugs](#known-bugs)
-- [Future Plans](#future-plans)
 - [License](#license)
 - [Contact Information](#contact-information)
 
