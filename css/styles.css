@@ -31,3 +31,7 @@
 #initText {
   text-align: center;
 }
+
+.container {
+  margin-bottom: 2em;
+}
