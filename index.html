@@ -16,8 +16,8 @@
         <p>Fill out this short survey and find out!</p>
       </div>
     </div>
-    <div class="row">
-      <div class="class-md-4" id="sidebar">
+    <div id="show">
+      <div class="d-flex justify-content-center" id="survey">
         <form id="formOne" name="survey">
           <div class="form-group">
             <label class="question-title" for="validationDefault01">What's your name?</label>
@@ -59,20 +59,22 @@
           </div> 
           <button class="btn btn-primary" type="submit">Click Me!</button>     
         </form>
-      </div>  
-      <div id="hidden" class="col-md-6">
+      </div>
+    </div>  
+    <div class="d-flex justify-content-center">
+      <div id="hidden">
         <img src="placeholder" id="hiddenImg">
-        <h4>Congratulations <span id="userGreet"></span>!</h4>
+        <h4>Congratulations <span class="userGreet"></span>!</h4>
         <p>
-          I think you'll match well with <span id="codeLanguage"></span>! Good luck on your journey. 
+          I think you'll match well with <span class="codeLanguage"></span>! Good luck on your journey. 
           <br>
           <br>
-          I'm very new to coding. I am familiar with you and this coding language in name only. Do some reasearch before you change careers!
+          I'm very new to coding -- which is to say I am familiar with you and <span class="codeLanguage"></span> in name only. However having worked in it briefly I would recommend trying some of these languages out. There are many many free programs available online to try out coding, and if you find interest there are many coding schools as well. Good luck <span class="userGreet"></span>!
         </p>
         <button class="btn btn-warning" type="submit" id="crazy">Go Crazy</button>
       </div>
     </div>
   </div>
-  
+
 </body>
 </html>

@@ -23,49 +23,57 @@ $(document).ready(function(){
     if (langType === "functional") {
       if (interest === "data" || interest === "vidG") {
         if (celeb === "issa") {
-          $("#hidden").show();
-          $("#codeLanguage").text("Elixir");
+          $("#hidden").fadeIn(2000);
+          $("#show").slideUp(2000)
+          $(".codeLanguage").text("Elixir");
           $("#hiddenImg").attr("src", "img/elixir.jpeg");
         } else if (celeb === "costas") {
-          $("#hidden").show();
+          $("#hidden").fadeIn(2000);
+          $("#show").slideUp(2000)
           $("#codeLanguage").text("C++");
           $("#hiddenImg").attr("src", "img/cplusplus.jpeg");
         }
       } else if (interest === "design" || interest === "other") {
         if (animal === "bird") {
-          $("#hidden").show();
+          $("#hidden").fadeIn(2000);
+          $("#show").slideUp(2000)
           $("#codeLanguage").text("Python");
           $("#hiddenImg").attr("src", "img/python.jpeg");
         } else if (animal === "cat") {
-          $("#hidden").slideIn();
-          $("#codeLanguage").text("Ruby");
+          $("#hidden").fadeIn(2000);
+          $("#show").slideUp(2000)
+          $(".codeLanguage").text("Ruby");
           $("#hiddenImg").attr("src", "img/ruby.png");
         }
       }  
     } else if (langType === "imperative") {
       if (interest === "data" || interest === "vidG") {
         if (celeb === "issa") {
-          $("#hidden").show();
+          $("#hidden").fadeIn(2000);
+          $("#show").slideUp(2000)
           $("#codeLanguage").text("COBOL");
           $("#hiddenImg").attr("src", "img/cobol.jpeg");
         } else if (celeb === "costas") {
-          $("#hidden").show();
+          $("#hidden").fadeIn(2000);
+          $("#show").slideUp(2000)
           $("#codeLanguage").text("Rust");
           $("#hiddenImg").attr("src", "img/rust.png");
         }
       } else if (interest === "design" || interest === "other") {
         if (animal === "bird") {
-          $("#hidden").show();
+          $("#hidden").fadeIn(2000);
+          $("#show").slideUp(2000)
           $("#codeLanguage").text("C# (C sharp)");
           $("#hiddenImg").attr("src", "img/csharp.jpeg");
         } else if (animal === "cat") {
-          $("#hidden").show();
+          $("#hidden").fadeIn(2000);
+          $("#show").slideUp(2000)
           $("#codeLanguage").text("Java");
           $("#hiddenImg").attr("src", "img/java.jpeg");
         }
       }
     }
-    $("#userGreet").text(uName);
+    $(".userGreet").text(uName);
   });
 
   $("button#crazy").click(function(event){

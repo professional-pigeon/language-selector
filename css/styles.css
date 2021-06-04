@@ -1,4 +1,4 @@
-#sidebar {
+#survey {
   border: solid 4px rgb(241, 245, 23);
   padding: 1em;
   background-color: rgba(33, 224, 199);
@@ -16,16 +16,20 @@
 }
 
 #hidden {
+  background-color: rgba(81, 184, 216, 0.89);
+  border: solid 4px rgb(223, 162, 70);
+  width: 100%;
   display: none;
-  background-color: rgba(33, 224, 199);
-  border: solid 4px rgb(241, 245, 23);
+  padding:1em;
 }
 
 #hiddenImg {
+  display: block;
   width: 40%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
-  padding: auto;
+
 }
 
 #initText {
