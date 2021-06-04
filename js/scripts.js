@@ -26,7 +26,7 @@ $(document).ready(function(){
         if (celeb === "issa") {
           $("#hidden").fadeIn(2000);
           $("#show").slideUp(1500)
-          $(".codeLanguage").text("Elixir");
+          $("#codeLanguage").text("Elixir");
           $("#hiddenImg").attr("src", "img/elixir.jpeg");
         } else if (celeb === "costas") {
           $("#hidden").fadeIn(2000);
@@ -43,7 +43,7 @@ $(document).ready(function(){
         } else if (animal === "cat") {
           $("#hidden").fadeIn(2000);
           $("#show").slideUp(1500)
-          $(".codeLanguage").text("Ruby");
+          $("#codeLanguage").text("Ruby");
           $("#hiddenImg").attr("src", "img/ruby.png");
         }
       }  
