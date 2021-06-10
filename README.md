@@ -28,8 +28,9 @@ This is a code language quiz. You fill out some information, it runs a bit of lo
 
 ## Setup/Installation Requirements
 
-* [Clone] (https://github.com/git-guides/git-clone) or [fork](https://docs.github.com/en/github/getting-started-with-github/quickstart/fork-a-repo) this repository from github into directory on your computer: [Github link for this project](https://github.com/professional-pigeon/language-selector)
+* [Clone] (https://github.com/git-guides/git-clone) or [fork](https://docs.github.com/en/github/getting-started-with-github/quickstart/fork-a-repo) this repository from github on your desktop: [Github link for this project](https://github.com/professional-pigeon/language-selector)
 * Open cloned/forked directory with [VS studio.](https://code.visualstudio.com/). 
+* Open file index.html in your browser.
 * Directions to install Bootstrap and the Jquery library can be found in the links in the 'Technologies Used' section of this README
 
 ## Known Bugs
