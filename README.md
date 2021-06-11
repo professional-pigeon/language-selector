@@ -32,6 +32,10 @@ This is a code language quiz. You fill out some information, it runs a bit of lo
 * navigate to the top level of the directory
 * Open the file named "index.html" in your browser.
 
+or
+
+* open this [link](https://professional-pigeon.github.io/language-selector/)
+
 ## Known Bugs
 
 * No known bugs
