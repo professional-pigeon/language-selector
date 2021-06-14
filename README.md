@@ -24,17 +24,14 @@
 
 ## Description
 
-This is a code language quiz. You fill out some information, it runs a bit of logic, and you get a gentle suggestion for a code language. also has a randomizer with about equivalent authority to myself to suggest a language. Here is a [link](https://professional-pigeon.github.io/language-selector/) to the github pages location for this project if you'd like to try it out.
+This is a code language quiz. You fill out some information, it runs a bit of logic, and you get a gentle suggestion for a code language. also has a randomizer to show you a random language.
 
 ## Setup/Installation Requirements
 
 * [Clone] (https://github.com/git-guides/git-clone) this repository from github to your desktop: [Github link for this project](https://github.com/professional-pigeon/language-selector)
 * navigate to the top level of the directory
 * Open the file named "index.html" in your browser.
-
-or
-
-* open this [link](https://professional-pigeon.github.io/language-selector/)
+* Or you can open this [link](https://professional-pigeon.github.io/language-selector/)
 
 ## Known Bugs
 
