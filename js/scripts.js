@@ -73,7 +73,7 @@ $(document).ready(function() {
         }
       }
     }
-    $(".userGreet").text(uName);
+    $("#userGreet").text(uName);
   });
 
   $("button#crazy").click(function(event){
