@@ -10,8 +10,9 @@ body {
 
 .jumbotron {
   border: solid 4px rgb(201, 94, 174);
-  background-color: rgb(212, 241, 241);
+  background-color: rgb(251, 253, 238);
   height: 50%;
+  margin-bottom: 4em;
 }
 #titleImg {
   margin-left: auto;
