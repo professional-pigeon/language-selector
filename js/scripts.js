@@ -27,45 +27,45 @@ $(document).ready(function() {
           $("#show").slideUp(1500);
           $("#codeLanguage").text("Elixir");
           $("#hiddenImg").attr("src", "img/elixir.jpeg");
-        } else (celeb === "costas"); {
+        } else {
           $("#hidden").fadeIn(2000);
           $("#show").slideUp(1500);
           $("#codeLanguage").text("C++");
           $("#hiddenImg").attr("src", "img/cplusplus.png");
         }
-      } else if (interest === "design" || interest === "other") {
+      } else {
         if (animal === "bird") {
           $("#hidden").fadeIn(2000);
           $("#show").slideUp(1500);
           $("#codeLanguage").text("Python");
           $("#hiddenImg").attr("src", "img/python.jpeg");
-        } else (animal === "cat"); {
+        } else {
           $("#hidden").fadeIn(2000);
           $("#show").slideUp(1500);
           $("#codeLanguage").text("Ruby");
           $("#hiddenImg").attr("src", "img/ruby.png");
         }
-      }  
-    } else if (langType === "imperative") {
+      }
+    } else {
       if (interest === "data" || interest === "vidG") {
         if (celeb === "issa") {
           $("#hidden").fadeIn(2000);
           $("#show").slideUp(1500);
           $("#codeLanguage").text("COBOL");
           $("#hiddenImg").attr("src", "img/cobol.jpeg");
-        } else (celeb === "costas"); {
+        } else {
           $("#hidden").fadeIn(2000);
           $("#show").slideUp(1500);
           $("#codeLanguage").text("Rust");
           $("#hiddenImg").attr("src", "img/rust.png");
         }
-      } else (interest === "design" || interest === "other"); {
+      } else {
         if (animal === "bird") {
           $("#hidden").fadeIn(2000);
           $("#show").slideUp(1500);
           $("#codeLanguage").text("C# (C sharp)");
           $("#hiddenImg").attr("src", "img/csharp.jpeg");
-        } else (animal === "cat"); {
+        } else {
           $("#hidden").fadeIn(2000);
           $("#show").slideUp(1500);
           $("#codeLanguage").text("Java");
@@ -102,7 +102,7 @@ $(document).ready(function() {
     } else if (ranNum === 7) {
       $("#codeLanguage").text("C# (C sharp)");
       $("#hiddenImg").attr("src", "img/csharp.jpeg");
-    } else (ranNum === 8); {
+    } else {
       $("#codeLanguage").text("Java");
       $("#hiddenImg").attr("src", "img/java.jpeg");
     }

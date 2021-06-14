@@ -27,7 +27,6 @@ body {
 #hidden {
   background-color: rgba(81, 184, 216, 0.89);
   border: solid 4px rgb(223, 162, 70);
-  width: 100%;
   display: none;
   padding:1em;
 }
