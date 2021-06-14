@@ -16,9 +16,9 @@
 
 * HTML
 * CSS
-* [Markdown] (https://www.markdownguide.org/)
-* [Javascript] (https://www.javascript.com/)
-* [jQuery] (https://jquery.com/)
+* [Markdown](https://www.markdownguide.org/)
+* [Javascript](https://www.javascript.com/)
+* [jQuery](https://jquery.com/)
 * [VS studio](https://code.visualstudio.com/)
 * [Bootstrap](https://getbootstrap.com/) 
 
@@ -28,7 +28,7 @@ This is a code language quiz. You fill out some information, it runs a bit of lo
 
 ## Setup/Installation Requirements
 
-* [Clone] (https://github.com/git-guides/git-clone) this repository from github to your desktop: [Github link for this project](https://github.com/professional-pigeon/language-selector)
+* [Clone](https://github.com/git-guides/git-clone) this repository from github to your desktop: [Github link for this project](https://github.com/professional-pigeon/language-selector)
 * navigate to the top level of the directory
 * Open the file named "index.html" in your browser.
 * Or you can open this [link](https://professional-pigeon.github.io/language-selector/)
